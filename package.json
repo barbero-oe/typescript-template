@@ -2,7 +2,7 @@
   "name": "typescript-template",
   "version": "1.0.0",
   "description": "A typescript template for personal projects",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "license": "MIT",
   "scripts": {
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
