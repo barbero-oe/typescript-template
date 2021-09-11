@@ -7,7 +7,8 @@
   "scripts": {
     "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx",
     "prettier": "prettier --write ./src",
-    "test": "jest"
+    "test": "jest",
+    "build": "rm -rf build/* && tsc"
   },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.1",
